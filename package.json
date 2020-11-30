@@ -1,0 +1,27 @@
+{
+  "name": "arqappweb-ex07node-express-mongo",
+  "version": "1.0.0",
+  "description": "Atividade da disciplica Arquitetura Web do curso de Sistemas de Informação do Centro Universitário Newton Paiva",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonhqm/ArqAppWeb-Ex07-NodeExpressMongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonhqm/ArqAppWeb-Ex07-NodeExpressMongo/issues"
+  },
+  "homepage": "https://github.com/marlonhqm/ArqAppWeb-Ex07-NodeExpressMongo#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.18",
+    "nodemon": "^2.0.6"
+  }
+}

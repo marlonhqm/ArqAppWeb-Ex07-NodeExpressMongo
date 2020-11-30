@@ -1,0 +1,28 @@
+//CURSOS
+GET http://localhost:3000/v1/candidatos
+###
+GET http://localhost:3000/v1/candidatos/5fc46330cd5df733e0c0f17a
+###
+
+POST http://localhost:3000/v1/candidatos
+Content-Type: application/json
+
+{
+  "nome": "Marlon",
+  "partido": "ppm",
+  "numero": "1717",
+  "votos": "100",
+  "status": "ativo"
+
+}
+###
+PATCH   http://localhost:3000/v1/candidatos/5fc46318cd5df733e0c0f179
+Content-Type: application/json
+
+{
+  "numero": "1717"
+}
+###
+DELETE  http://localhost:3000/v1/candidatos/5fc46318cd5df733e0c0f179
+###
+
